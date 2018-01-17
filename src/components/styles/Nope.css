@@ -1,0 +1,78 @@
+.logoCont{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.logoBg{
+  position:relative;
+  margin: auto;
+  width:600px;
+  height:80px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background: linear-gradient(145deg, #fdba6d,#f13ca4 , #549ef4, #c1efc9);
+  z-index: 0;
+  background-size: 400% 400%;
+  -webkit-animation: gradVary 10s ease infinite;
+  -moz-animation: gradVary 10s ease infinite;
+  animation: gradVary 10s ease infinite;
+}
+
+.logo{
+  position:absolute;
+  width:600px;
+  height:80px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+@-webkit-keyframes gradVary {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes gradVary {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes gradVary {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.logoBg{
+		width: 90vw;
+		height: 13.333vw;
+	}
+	.logo{
+		width: 90vw;
+		height: 13.333vw;
+	}
+}
