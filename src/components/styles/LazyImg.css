@@ -5,6 +5,7 @@
 	background-color: #efefef;
 	margin: 1.5vw;
 	border-radius: 1vw;
+	box-shadow: 0px 40px 40px #888888;
 }
 
 .imgBox{
@@ -15,6 +16,27 @@
 	border-radius: 1vw;
 }
 
+.imgContOpen{
+	position: relative;
+	width: 100vw;
+	height: 62vh;
+	background-color: #efefef;
+	margin: 1.5vw;
+	box-shadow: 0px 40px 40px #888888;
+    background-size: 100% 100%;
+	border-radius: 1vw;
+}
+
+.imgBoxOpen{
+	position: relative;
+	margin: auto;
+	margin-top: 1vh;
+	width: 60vh;
+	height: 60vh;
+	border-radius: 1vw;
+	background-size: cover;
+}
+
 @media screen and (min-width: 1024px) {
 	.imgCont{
 		width: 15vw;
@@ -23,6 +45,15 @@
 	.imgBox{
 		width: 15vw;
 		height: 15vw;
+	}
+	.imgContOpen{
+		width: 51vw;
+		height: 62vh;
+	}
+	.imgBoxOpen{
+		width: 60vh;
+		height: 60vh;
+		margin-top: 0px;
 	}
 }
 
@@ -35,6 +66,15 @@
 		width: 16vw;
 		height: 16vw;
 	}
+	.imgContOpen{
+		width: 54vw;
+		height: 54vw;
+	}
+	.imgBoxOpen{
+		width: 54vw;
+		height: 54vw;
+		margin-top: 0px;
+	}
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -45,6 +85,15 @@
 	.imgBox{
 		width: 20vw;
 		height: 20vw;
+	}
+	.imgContOpen{
+		width: 66vw;
+		height: 66vw;
+	}
+	.imgBoxOpen{
+		width: 66vw;
+		height: 66vw;
+		margin-top: 0px;
 	}
 }
 
@@ -57,6 +106,15 @@
 		width: 24vw;
 		height: 24vw;
 	}
+	.imgContOpen{
+		width: 78vw;
+		height: 78vw;
+	}
+	.imgBoxOpen{
+		width: 78vw;
+		height: 78vw;
+		margin-top: 0px;
+	}
 }
 
 @media screen and (min-width: 375px) and (max-width: 450px) {
@@ -67,6 +125,15 @@
 	.imgBox{
 		width: 27vw;
 		height: 27vw;
+	}
+	.imgContOpen{
+		width: 87vw;
+		height: 87vw;
+	}
+	.imgBoxOpen{
+		width: 87vw;
+		height: 87vw;
+		margin-top: 0px;
 	}
 }
 
@@ -79,5 +146,14 @@
 	.imgBox{
 		width: 28vw;
 		height: 28vw;
+	}
+	.imgContOpen{
+		width: 94vw;
+		height: 94vw;
+	}
+	.imgBoxOpen{
+		width: 94vw;
+		height: 94vw;
+		margin-top: 0px;
 	}
 }

@@ -9,8 +9,13 @@ class Art extends Component {
 	constructor(){
 		super();
 		this.state={
-
+			isOpen:Array.apply(null,Array(artData.urls.length)).map(()=>{return false;})
 		};
+		this.boxModified=this.boxModified.bind(this);
+	}
+
+	boxModified(d){
+		this.setState({isOpen:d});
 	}
 
 	componentWillMount(){
@@ -19,7 +24,7 @@ class Art extends Component {
 
 	render(){
 		var boxes= artData.urls.map((u,i)=>{
-			return <LazyImg src={u} id={i+1}></LazyImg>;
+			return <LazyImg isBoxModified={this.boxModified} boxData={this.state.isOpen} src={u} id={i+1}></LazyImg>;
 		});
 
 		return ([
