@@ -1,83 +1,72 @@
-.nameBar{
-	position: absolute;
+
+.boxCont{
+	position:relative;
 	width: 100vw;
-	height: 20vh;
-	top: 0px;
-	left: 0px;
-	background-color: #efefef;
+	margin-top: 23vh;
 }
 
-.name{
+.innerBoxCont{
 	position: relative;
-	height: 12vh;
 	margin: auto;
-	margin-top: 4vh;
-	background-color: #efefef;
-	background: linear-gradient(145deg,#DA4453,#89216B);
-    background-size: 100% 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5vw;
-    color: #000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	width: 54vw;
+	height: 100%;
+	top: 0px;
+  	display: flex;
+  	flex-wrap: wrap;
+  	flex-direction: left;
 }
+
 
 @media screen and (min-width: 1024px) {
-	.nameBar{
-		height: 23vh;
+	.boxCont{
+		margin-top: 23vh;
 	}
-	.name{
-		font-size: 5.5vw;
-		height: 15vh;
+	.innerBoxCont{
+		width: 54vw;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-	.nameBar{
-		height: 23vh;
+	.boxCont{
+		margin-top: 23vh;
 	}
-	.name{
-		font-size: 8vw;
-		height: 15vh;
+	.innerBoxCont{
+		width: 60vw;
 	}
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-	.nameBar{
-		height: 23vh;
+	.boxCont{
+		margin-top: 23vh;
 	}
-	.name{
-		font-size: 10vw;
-		height: 15vh;
+	.innerBoxCont{
+		width: 69vw;
 	}
 }
 
 @media screen and (min-width: 450px) and (max-width: 600px) {
-	.nameBar{
-		height: 22vh;
+	.boxCont{
+		margin-top: 22vh;
 	}
-	.name{
-		font-size: 12vw;
-		height: 14vh
+	.innerBoxCont{
+		width: 81vw;
 	}
 }
 
 @media screen and (min-width: 375px) and (max-width: 450px) {
-	.nameBar{
-		height: 21vh;
+	.boxCont{
+		margin-top: 21vh;
 	}
-	.name{
-		font-size: 16vw;
-		height: 12vh;
+	.innerBoxCont{
+		width: 90vw;
 	}
 }
 
 @media screen and (max-width: 375px) {
-	.nameBar{
-		height: 18vh;
+	.boxCont{
+		margin-top: 18vh;
 	}
-	.name{
-		font-size: 16vw;
-		height: 12vh
+	.innerBoxCont{
+		width: 100vw;
 	}
 }

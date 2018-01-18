@@ -1,0 +1,83 @@
+.imgCont{
+	position: relative;
+	width: 15vw;
+	height: 15vw;
+	background-color: #efefef;
+	margin: 1.5vw;
+	border-radius: 1vw;
+}
+
+.imgBox{
+	position: relative;
+	width: 15vw;
+	height: 15vw;
+	background-size: cover;
+	border-radius: 1vw;
+}
+
+@media screen and (min-width: 1024px) {
+	.imgCont{
+		width: 15vw;
+		height: 15vw;
+	}
+	.imgBox{
+		width: 15vw;
+		height: 15vw;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.imgCont{
+		width: 16vw;
+		height: 16vw;
+	}
+	.imgBox{
+		width: 16vw;
+		height: 16vw;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+	.imgCont{
+		width: 20vw;
+		height: 20vw;
+	}
+	.imgBox{
+		width: 20vw;
+		height: 20vw;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+	.imgCont{
+		width: 24vw;
+		height: 24vw;
+	}
+	.imgBox{
+		width: 24vw;
+		height: 24vw;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+	.imgCont{
+		width: 27vw;
+		height: 27vw;
+	}
+	.imgBox{
+		width: 27vw;
+		height: 27vw;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.imgCont{
+		width: 28vw;
+		height: 28vw;
+		margin: 2.5vw;
+	}
+	.imgBox{
+		width: 28vw;
+		height: 28vw;
+	}
+}
