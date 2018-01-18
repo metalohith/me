@@ -25,6 +25,7 @@
 	box-shadow: 0px 40px 40px #888888;
     background-size: 100% 100%;
 	border-radius: 1vw;
+	z-index: 5;
 }
 
 .imgBoxOpen{
@@ -35,6 +36,7 @@
 	height: 60vh;
 	border-radius: 1vw;
 	background-size: cover;
+	z-index: 5;
 }
 
 @media screen and (min-width: 1024px) {
@@ -119,41 +121,40 @@
 
 @media screen and (min-width: 375px) and (max-width: 450px) {
 	.imgCont{
-		width: 27vw;
-		height: 27vw;
+		width: 24vw;
+		height: 24vw;
 	}
 	.imgBox{
-		width: 27vw;
-		height: 27vw;
+		width: 24vw;
+		height: 24vw;
 	}
 	.imgContOpen{
-		width: 87vw;
-		height: 87vw;
+		width: 78vw;
+		height: 78vw;
 	}
 	.imgBoxOpen{
-		width: 87vw;
-		height: 87vw;
+		width: 78vw;
+		height: 78vw;
 		margin-top: 0px;
 	}
 }
 
 @media screen and (max-width: 375px) {
 	.imgCont{
-		width: 28vw;
-		height: 28vw;
-		margin: 2.5vw;
+		width: 27vw;
+		height: 27vw;
 	}
 	.imgBox{
-		width: 28vw;
-		height: 28vw;
+		width: 27vw;
+		height: 27vw;
 	}
 	.imgContOpen{
-		width: 94vw;
-		height: 94vw;
+		width: 87vw;
+		height: 87vw;
 	}
 	.imgBoxOpen{
-		width: 94vw;
-		height: 94vw;
+		width: 87vw;
+		height: 87vw;
 		margin-top: 0px;
 	}
 }
