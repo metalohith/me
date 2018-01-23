@@ -1,0 +1,127 @@
+.navCont{
+	position: fixed;
+	width: 100vw;
+	height: 9vh;
+	top: 23vh;
+	z-index: 10;
+	background-color: #fff;
+}
+
+.navBar{
+	position: relative;
+	margin: auto;
+	width: 70vw;
+	height: 9vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav{
+	position: relative;
+	width: 35vw;
+	height: 9vh;
+	font-family: 'Cantarell', sans-serif;
+	text-align: center;
+	font-size: 2vw;
+	cursor: pointer;
+}
+
+.navSelected{
+	background: linear-gradient(90deg,#fff,#85f5d9,#fff);
+}
+
+.textRgt{
+	text-align: right;
+}
+
+.textLft{
+	text-align: left;
+}
+
+.noTextDeco{
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.navBar{
+		height: 9vh;
+	}
+	.navCont{
+		height: 9vh;
+		top: 23vh;
+	}
+	.nav{
+		height: 9vh;
+		font-size: 2vw;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.navBar{
+		height: 8vh;
+	}
+	.navCont{
+		height: 8vh;
+		top: 23vh;
+	}
+	.nav{
+		height: 8vh;
+		font-size: 2.5vw;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+	.navBar{
+		height: 7.5vh; 
+	}
+	.navCont{
+		height: 7.5vh;
+		top: 23vh;
+	}
+	.nav{
+		height: 7.5vh;
+		font-size: 3vw;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+	.navBar{
+		height: 6.5vh;
+	}
+	.navCont{
+		height: 6.5vh;
+		top: 22vh;
+	}
+	.nav{
+		height: 6.5vh;
+		font-size: 3.5vw;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+	.navBar{
+		height: 5.5vh; 
+	}
+	.navCont{
+		height: 5.5vh;
+		top: 21vh;
+	}
+	.nav{
+		height: 5.5vh;
+		font-size: 4vw;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.navBar{
+		height: 4vh;
+	}
+	.navCont{
+		height: 4vh;
+		top: 18vh;
+	}
+	.nav{
+		height: 4vh;
+		font-size: 5vw;
+	}
+}

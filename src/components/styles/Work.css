@@ -1,14 +1,14 @@
 
-.boxCont{
+.tileSetCont{
 	position:relative;
 	width: 100vw;
 	margin-top: 31vh;
 }
 
-.innerBoxCont{
+.innerTileSetCont{
 	position: relative;
 	margin: auto;
-	width: 54vw;
+	width: 60vw;
 	height: 100%;
 	top: 0px;
   	display: flex;
@@ -18,55 +18,37 @@
 
 
 @media screen and (min-width: 1024px) {
-	.boxCont{
-		margin-top: 31vh;
-	}
-	.innerBoxCont{
-		width: 54vw;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	.boxCont{
-		margin-top: 30vh;
-	}
-	.innerBoxCont{
+	.innerTileSetCont{
 		width: 60vw;
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
-	.boxCont{
-		margin-top: 30.5vh;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.innerTileSetCont{
+		width: 66vw;
 	}
-	.innerBoxCont{
-		width: 69vw;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+	.innerTileSetCont{
+		width: 70vw;
 	}
 }
 
 @media screen and (min-width: 450px) and (max-width: 600px) {
-	.boxCont{
-		margin-top: 29.5vh;
-	}
-	.innerBoxCont{
-		width: 81vw;
+	.innerTileSetCont{
+		width: 76vw;
 	}
 }
 
 @media screen and (min-width: 375px) and (max-width: 450px) {
-	.boxCont{
-		margin-top: 27.5vh;
-	}
-	.innerBoxCont{
-		width: 81vw;
+	.innerTileSetCont{
+		width: 80vw;
 	}
 }
 
 @media screen and (max-width: 375px) {
-	.boxCont{
-		margin-top: 23vh;
-	}
-	.innerBoxCont{
+	.innerTileSetCont{
 		width: 90vw;
 	}
 }

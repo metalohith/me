@@ -1,3 +1,11 @@
+  // <BrowserRouter>
+  // 	<div>
+		// <Route path="/board" component={App} />
+  //   	<Route path="/nope" component={Nope} />
+  //   </div>
+  //  </BrowserRouter>
+
+  
 import React from 'react';
 import { BrowserRouter,Route } from 'react-router-dom'
 
@@ -6,11 +14,13 @@ import Nope from './components/Nope';
 
 const Routes = () => (
   <BrowserRouter>
-  	<div>
-		<Route path="/board" component={App} />
-    	<Route path="/nope" component={Nope} />
-    </div>
+  	<App/>
    </BrowserRouter>
+
+
+
 );
 
 export default Routes;
+
+
