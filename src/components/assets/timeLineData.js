@@ -25,21 +25,21 @@ const timeLineData = {
 			{
 				type : 0,
 				text : 'REST API for an android/ios app',
-				desc : 'Rest api services in NodeJS and ExpressJS and PostgreSQL',
+				desc : 'Rest api services using NodeJS, ExpressJS and PostgreSQL',
 				tech : ['NodeJS','ExpressJS','PostgreSQL'],
 				date : 'Sep 2017'
 			},
 			{
 				type : 0,
 				text : 'My First 3D browser game',
-				desc : 'Game Setup : Try escaping from the enemy boats without being killed.',
+				desc : 'Game Setup : Try to escape from the enemy boats without being killed.',
 				tech : ['ThreeJS'],
 				date : 'Sep 2017'
 			},
 			{
 				type : 0,
 				text : 'A Social Media app for kids',
-				desc : 'React app ported to android and ios using cordova',
+				desc : 'React app ported to android/ios app using cordova',
 				tech : ['Cordova','HTML','CSS','ReactJS'],
 				date : 'Aug 2017'
 			},
@@ -135,14 +135,14 @@ const timeLineData = {
 			{
 				type : 0,
 				text : 'My first website - QRLicense app',
-				desc : 'Stores all the vehicle related docs and generates a QR code to the web copy of the docs.',
+				desc : 'Stores all the vehicle related docs and generates a QR code pointing to the web copy of the docs.',
 				tech : ['HTML','CSS','Javascript','PHP'],
 				date : 'June 2014'
 			},
 			{
 				type : 0,
 				text : 'My first Python script',
-				desc : 'Played a song on my phone, the moment results were anounced.',
+				desc : 'Plays a song on my phone, the moment results were anounced.',
 				tech : ['Python'],
 				date : 'Dec 2013'
 			},
