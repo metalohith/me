@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './styles/Art.css';
 import artData from './assets/artData.js';
 import LazyImg from './LazyImg';
-import Name from './Name';
 
 class Art extends Component {
 
@@ -28,7 +27,6 @@ class Art extends Component {
 		});
 
 		return ([
-			<Name></Name>,
 			<div className='boxCont'>
 				<div className='innerBoxCont'>
 					{boxes}

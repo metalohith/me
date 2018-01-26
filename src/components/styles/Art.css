@@ -2,7 +2,7 @@
 .boxCont{
 	position:relative;
 	width: 100vw;
-	margin-top: 31vh;
+	margin-top: 15vh;
 }
 
 .innerBoxCont{
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1024px) {
 	.boxCont{
-		margin-top: 31vh;
+		margin-top: 5vw;
 	}
 	.innerBoxCont{
 		width: 54vw;
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 	.boxCont{
-		margin-top: 30vh;
+		margin-top: 6vw;
 	}
 	.innerBoxCont{
 		width: 60vw;
@@ -37,7 +37,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
 	.boxCont{
-		margin-top: 30.5vh;
+		margin-top: 11vw;
 	}
 	.innerBoxCont{
 		width: 69vw;
@@ -46,7 +46,7 @@
 
 @media screen and (min-width: 450px) and (max-width: 600px) {
 	.boxCont{
-		margin-top: 29.5vh;
+		margin-top: 20vw;
 	}
 	.innerBoxCont{
 		width: 81vw;
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 450px) {
 	.boxCont{
-		margin-top: 27.5vh;
+		margin-top: 23vw;
 	}
 	.innerBoxCont{
 		width: 81vw;
@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 375px) {
 	.boxCont{
-		margin-top: 23vh;
+		margin-top: 25vw;
 	}
 	.innerBoxCont{
 		width: 90vw;

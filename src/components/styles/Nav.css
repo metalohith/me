@@ -1,29 +1,171 @@
-.navCont{
+.navArt{
+	position: absolute;
+	width: 20vw;
+	height: 7vh;
+	top: 30vh;
+	left: 5vw;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 3.5vw;
+	font-weight: bold;
+	color: #eef;
+	opacity: 0;
+	transition: all 0.7s;
+	display: none;
+}
+
+.navTime{
+	position: absolute;
+	width: 20vw;
+	height: 7vh;
+	top: 50vh;
+	left: 5vw;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 3.5vw;
+	font-weight: bold;
+	color: #eef;
+	opacity: 0;
+	transition: all 0.7s;
+	display: none;
+}
+
+.navName{
+	position: absolute;
+	width: 20vw;
+	height: 7vh;
+	bottom: 10vh;
+	left: 5vw;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: #000;
+	opacity: 0;
+	transition: all 0.7s;
+	display: none;
+}
+
+.navEmail{
+	font-size: 1vw;
+}
+
+.navBut{
 	position: fixed;
-	width: 100vw;
-	height: 9vh;
-	top: 23vh;
+	width: 5vw;
+	height: 5vw;
+	top: 40vh;
+	left: 5vw;
+	background-color: #ffd;
+	z-index: 11;
+	transform: rotate(0deg);
+	transition: all 1s;
+}
+
+.navCross{
+	transform: rotate(225deg);
+    left: 30vw;
+}
+
+.navChildShow{
+	opacity: 1;
+	display: block;
+}
+
+.navBut1{
+	position: absolute;
+	width: 5vw;
+	height: 2.4vw;
+	border-bottom: 0.2vw solid #000;
+	top: 0;
+	left: 0;
+}
+
+.navBut2{
+	position: absolute;
+	width: 2.4vw;
+	height: 5vw;
+	border-right: 0.2vw solid #000;
+	top: 0;
+	left: 0;
+}
+
+
+.navMask{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0vw;
+	height: 100vh;
+	background-color: #000;
+	opacity: 0.9;
+	z-index: 5;
+}
+
+.navLayer{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0vw;
+	height: 100vh;
+	background-color: #ffd;
+	/*background: linear-gradient(145deg,#DA4453,#89216B);*/
+	transition: width 1s;
 	z-index: 10;
-	background-color: #fff;
 }
 
-.navBar{
-	position: relative;
-	margin: auto;
-	width: 70vw;
-	height: 9vh;
-	display: flex;
-	flex-wrap: wrap;
+.navLayer1{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0vw;
+	height: 100vh;
+	background-color: #ffd;
+	transition: width 0.8s;
+	box-shadow: 0px 10px 30px #000;
+	z-index: 9;
+
 }
 
-.nav{
-	position: relative;
-	width: 35vw;
-	height: 9vh;
-	font-family: 'Cantarell', sans-serif;
-	text-align: center;
-	font-size: 2vw;
-	cursor: pointer;
+.navLayer2{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0vw;
+	height: 100vh;
+	background-color: #ffd;
+	transition: width 0.6s;
+	box-shadow: 0px 10px 30px #000;
+	z-index: 8;
+}
+
+.navLayer3{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0vw;
+	height: 100vh;
+	background-color: #ffd;
+	transition: width 0.4s;
+	box-shadow: 0px 10px 30px #000;
+	z-index: 7;
+}
+
+.navLayer4{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0vw;
+	height: 100vh;
+	background-color: #ffd;
+	transition: width 0.2s;
+	box-shadow: 0px 10px 30px #000;
+	z-index: 6;
+}
+
+.navOpen{
+	width: 40vw;
+}
+
+.navOpenFull{
+	width: 100vw;
 }
 
 .navSelected{
@@ -40,88 +182,165 @@
 
 .noTextDeco{
 	text-decoration: none;
+	color: #000;
 }
 
 @media screen and (min-width: 1024px) {
-	.navBar{
-		height: 9vh;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+	.navBut{
+		top : 5vw;
+		width: 7vw;
+		height: 7vw;
 	}
-	.navCont{
-		height: 9vh;
-		top: 23vh;
+	.navOpen{
+		width: 100vw;
 	}
-	.nav{
-		height: 9vh;
+	.navCross{
+		transform: rotate(225deg);
+	    left: 47vw;
+	}
+	.navBut1{
+		width: 7vw;
+		height: 3.25vw;
+		border-bottom: 0.5vw solid #000;
+	}
+	.navBut2{
+		width: 3.25vw;
+		height: 7vw;
+		border-right: 0.5vw solid #000;
+	}
+	.navTime{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 7vw;
+	}
+	.navArt{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 7vw;
+	}
+	.navName{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 3vw;
+	}
+	.navEmail{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
 		font-size: 2vw;
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	.navBar{
-		height: 8vh;
+@media screen and (min-width: 375px) and (max-width: 450px) {
+	.navBut{
+		top : 5vw;
+		width: 10vw;
+		height: 10vw;
 	}
-	.navCont{
-		height: 8vh;
-		top: 23vh;
+	.navOpen{
+		width: 100vw;
 	}
-	.nav{
-		height: 8vh;
-		font-size: 2.5vw;
+	.navCross{
+		transform: rotate(225deg);
+	    left: 47vw;
 	}
-}
-
-@media screen and (min-width: 600px) and (max-width: 768px) {
-	.navBar{
-		height: 7.5vh; 
+	.navBut1{
+		width: 10vw;
+		height: 4.75vw;
+		border-bottom: 0.5vw solid #000;
 	}
-	.navCont{
-		height: 7.5vh;
-		top: 23vh;
+	.navBut2{
+		width: 4.75vw;
+		height: 10vw;
+		border-right: 0.5vw solid #000;
 	}
-	.nav{
-		height: 7.5vh;
+	.navTime{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 7vw;
+	}
+	.navArt{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 7vw;
+	}	
+	.navName{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
 		font-size: 3vw;
 	}
-}
+	.navEmail{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 2vw;
+	}
 
-@media screen and (min-width: 450px) and (max-width: 600px) {
-	.navBar{
-		height: 6.5vh;
-	}
-	.navCont{
-		height: 6.5vh;
-		top: 22vh;
-	}
-	.nav{
-		height: 6.5vh;
-		font-size: 3.5vw;
-	}
-}
-
-@media screen and (min-width: 375px) and (max-width: 450px) {
-	.navBar{
-		height: 5.5vh; 
-	}
-	.navCont{
-		height: 5.5vh;
-		top: 21vh;
-	}
-	.nav{
-		height: 5.5vh;
-		font-size: 4vw;
-	}
 }
 
 @media screen and (max-width: 375px) {
-	.navBar{
-		height: 4vh;
+	.navBut{
+		top : 5vw;
+		width: 10vw;
+		height: 10vw;
 	}
-	.navCont{
-		height: 4vh;
-		top: 18vh;
+	.navOpen{
+		width: 100vw;
 	}
-	.nav{
-		height: 4vh;
-		font-size: 5vw;
+	.navCross{
+		transform: rotate(225deg);
+	    left: 47vw;
+	}
+	.navBut1{
+		width: 10vw;
+		height: 4.75vw;
+		border-bottom: 0.5vw solid #000;
+	}
+	.navBut2{
+		width: 4.75vw;
+		height: 10vw;
+		border-right: 0.5vw solid #000;
+	}
+	.navTime{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 7vw;
+	}
+	.navArt{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 7vw;
+	}
+	.navName{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 3vw;
+	}
+	.navEmail{
+		width: 100vw;
+		text-align: center;
+		left: 0vw;
+		font-size: 2vw;
 	}
 }

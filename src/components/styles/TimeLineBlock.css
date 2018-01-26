@@ -1,0 +1,319 @@
+
+.timeBlkCont{
+	position: relative;
+	width: 70vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+.timeBlkLeft{
+	position: relative;
+	width: 9vw;
+	border-right: 0.2vw dashed #999;
+}
+
+.timeBlkDate{
+	position: absolute;
+	width: 9vw;
+	top: 0;
+	left: 0;
+	font-family: 'Pinyon Script', cursive;
+	font-size: 1.5vw;
+}
+
+.timeBlkTextCont{
+	position: relative;
+	width: 52vw;
+	margin: 0vw 0 4vw 8vw;
+	padding: 0 0 2vw 0;
+}
+
+.timeBlkText{
+	position: relative;
+	width: 55vw;
+	overflow-wrap: break-word;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5vw;
+	margin: 0vw 0 0.2vw 0;
+}
+
+.timeBlkDesc{
+	position: relative;
+	width: 55vw;
+	overflow-wrap: break-word;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 1.2vw;
+	color: #666;
+	margin: 0vw 0 0.2vw 0;
+}
+
+.timeBlkTech{
+	position: relative;
+	width: 55vw;
+	overflow-wrap: break-word;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.greyHighLight{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1vw;
+	margin: 0.3vw;
+	background-color: #ccc;
+}
+
+.timeBlkCircleCont{
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	left: 6.6vw;
+	top: -1.5vw;
+}
+
+.timeBlkCircle{
+	position: absolute;
+	background-color: #aaa;
+	width: 5vw;
+	height: 5vw;
+	left: 0vw;
+	top: 0px;
+	border-radius: 500px;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	animation: blurVary 2s ease infinite;
+  	-webkit-animation: blurVary 2s ease infinite;
+  	box-shadow: 0px 10px 30px #888888;
+}
+
+.timeBlkCircleInner{
+	position: absolute;
+	background-color: #ddd;
+	width: 2vw;
+	height: 2vw;
+	top: 1.5vw;
+	left: 1.5vw;
+	border-radius: 500px;
+	box-shadow: 0px 10px 30px #888888;
+}
+
+body{
+	background-color: #ffd;
+	overflow-x: hidden;
+}
+
+@-webkit-keyframes blurVary {
+	0% {
+		width: 0vw;
+		height: 0vw;
+		left: 2.5vw;
+		top: 2.5vw;
+	}
+	100% {
+		width: 5vw;
+		height: 5vw;
+		left: 0vw;
+		top: 0px;
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes blurVary {
+	0% {
+		width: 0vw;
+		height: 0vw;
+		left: 2.5vw;
+		top: 2.5vw;
+	}
+	100% {
+		width: 5vw;
+		height: 5vw;
+		left: 0vw;
+		top: 0px;
+		opacity: 0;
+	}
+}
+
+@keyframes blurVary {
+	0% {
+		width: 0vw;
+		height: 0vw;
+		left: 2.5vw;
+		top: 2.5vw;
+	}
+	100% {
+		width: 5vw;
+		height: 5vw;
+		left: 0vw;
+		top: 0px;
+		opacity: 0;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	.timeBlkCont{
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.timeBlkCont{
+		width: 80vw;
+	}
+
+	.timeBlkLeft{
+		width: 12vw;
+	}
+
+	.timeBlkDate{
+		width: 12vw;
+		font-size: 1.5vw;
+	}
+
+	.timeBlkText{
+		font-size: 1.9vw;
+	}
+
+	.timeBlkDesc{
+		font-size: 1.7vw;
+	}
+
+	.greyHighLight{
+		font-size: 1.5vw;
+		margin: 0.5vw;
+	}
+
+	.timeBlkCircleCont{
+		left: 9.6vw;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+	.timeBlkCont{
+		width: 80vw;
+	}
+
+	.timeBlkLeft{
+		width: 12vw;
+	}
+
+	.timeBlkDate{
+		width: 12vw;
+		font-size: 2vw;
+	}
+
+	.timeBlkText{
+		font-size: 2.3vw;
+	}
+
+	.timeBlkDesc{
+		font-size: 2.2vw;
+	}
+
+	.greyHighLight{
+		font-size: 1.9vw;
+		margin: 0.5vw;
+	}
+
+	.timeBlkCircleCont{
+		left: 9.6vw;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+	.timeBlkCont{
+		width: 80vw;
+	}
+
+	.timeBlkLeft{
+		width: 12vw;
+	}
+
+	.timeBlkDate{
+		width: 12vw;
+		font-size: 2.2vw;
+	}
+
+	.timeBlkText{
+		font-size: 2.3vw;
+	}
+
+	.timeBlkDesc{
+		font-size: 2.2vw;
+	}
+
+	.greyHighLight{
+		font-size: 1.9vw;
+		margin: 0.5vw;
+	}
+
+	.timeBlkCircleCont{
+		left: 9.6vw;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+	.timeBlkCont{
+		width: 100vw;
+		margin: 0 2vw 0 13vw;
+	}
+
+	.timeBlkLeft{
+		width: 19vw;
+	}
+
+	.timeBlkDate{
+		width: 12vw;
+		font-size: 2.8vw;
+	}
+
+	.timeBlkText{
+		font-size: 2.9vw;
+	}
+
+	.timeBlkDesc{
+		font-size: 2.7vw;
+	}
+
+	.greyHighLight{
+		font-size: 2.7vw;
+		margin: 0.7vw;
+	}
+
+	.timeBlkCircleCont{
+		left: 16.6vw;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.timeBlkCont{
+		width: 100vw;
+		margin: 0 2vw 0 13vw;
+	}
+
+	.timeBlkLeft{
+		width: 19vw;
+	}
+
+	.timeBlkDate{
+		width: 12vw;
+		font-size: 2.8vw;
+	}
+
+	.timeBlkText{
+		font-size: 2.9vw;
+	}
+
+	.timeBlkDesc{
+		font-size: 2.7vw;
+	}
+
+	.greyHighLight{
+		font-size: 2.7vw;
+		margin: 0.7vw;
+	}
+
+	.timeBlkCircleCont{
+		left: 16.6vw;
+	}
+}

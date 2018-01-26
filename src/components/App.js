@@ -14,7 +14,6 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-      	<Name></Name>
       	<Nav></Nav>
       	<Default></Default>
       </div>

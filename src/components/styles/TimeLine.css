@@ -1,16 +1,16 @@
 
-.tileSetCont{
+.timeLineOuterCont{
 	position:relative;
 	width: 100vw;
-	margin-top: 5vh;
+	padding-top: 15vh;
+	height: 100vh;
 }
 
-.innerTileSetCont{
+.timeLineCont{
 	position: relative;
-	margin: auto;
-	width: 60vw;
+	margin: 0 0 0 30vw;
+	width: 70vw;
 	height: 100%;
-	top: 0px;
   	display: flex;
   	flex-wrap: wrap;
   	flex-direction: left;
@@ -18,37 +18,43 @@
 
 
 @media screen and (min-width: 1024px) {
-	.innerTileSetCont{
-		width: 60vw;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	.innerTileSetCont{
-		width: 66vw;
-	}
-}
-
-@media screen and (min-width: 600px) and (max-width: 768px) {
-	.innerTileSetCont{
-		width: 70vw;
-	}
-}
-
-@media screen and (min-width: 450px) and (max-width: 600px) {
-	.innerTileSetCont{
-		width: 76vw;
-	}
-}
-
-@media screen and (min-width: 375px) and (max-width: 450px) {
-	.innerTileSetCont{
+	.timeLineCont{
+		margin: 0 0 0 20vw;
 		width: 80vw;
 	}
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.timeLineCont{
+		margin: 0 0 0 20vw;
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+	.timeLineCont{
+		margin: 0 0 0 20vw;
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+	.timeLineCont{
+		margin: 0 0 0 20vw;
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+	.timeLineCont{
+		margin: 0 0 0 0vw;
+		width: 100vw;
+	}
+}
+
 @media screen and (max-width: 375px) {
-	.innerTileSetCont{
-		width: 90vw;
+	.timeLineCont{
+		margin: 0 0 0 0vw;
+		width: 100vw;
 	}
 }
